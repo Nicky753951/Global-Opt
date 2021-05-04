@@ -1,0 +1,27 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'base/variables';
+@import "libs/font";
+@import "blocks/promo-header";
+@import "blocks/menu";
+@import "blocks/btn";
+@import "blocks/promo-about";
+@import "adaptation/promo-media";
+
+
+* {
+    font-family: 'Roboto', 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container  {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.divider {
+	width: 390px;
+	height: 1px;
+	background-color: #fff;
+}
+

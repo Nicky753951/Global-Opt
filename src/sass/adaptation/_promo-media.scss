@@ -1,0 +1,194 @@
+@media (max-width: 1200px){
+	.container{
+		max-width: 960px;
+	}
+
+	
+
+	.header {
+		.btn {
+			width: 145px;
+		}
+		.nav {
+			width: 500px;
+		&__link	{
+			font-size: 13px;
+			padding-right: 9px;
+			}	
+		}
+	}
+
+	.about {
+		&__descr-first {
+			font-size: 57px;
+		}
+		&__descr-second {
+			font-size: 35px;
+		}
+	 	&__text {
+		font-size: 14px;
+		}
+		&__lines {
+		width: 665px;
+			.divider {
+			width: 320px;
+			}
+		}
+	}	
+}
+
+
+@media (max-width: 992px){
+	.container{
+		max-width: 720px;
+	}
+
+	.header {
+		.btn {
+			width: 125px;
+		}
+		.nav {
+			width: 360px;
+			&__link {
+				font-size: 10px;
+				padding-right: 5px;
+			}
+		}
+		.header__tel {
+			font-size: 14px;
+		}
+	}
+
+	
+		
+	.about {
+		h1 {
+		font-size: 20px;
+		}
+		&__text {
+		font-size: 11px;
+		}
+		&__img {
+		width: 50px;
+		height: 50px;
+		}
+		&__lines {
+		width: 495px;
+			.divider {
+			width: 240px;
+			}
+		}
+		&__descr-first {
+		font-size: 50px;
+		}
+		&__descr-second {
+		font-size: 30px;
+		}	
+	}			
+}
+
+@media (max-width: 768px){
+	.container{
+		max-width: 540px;
+	}
+	.promo {
+		padding-top: 50px;
+		justify-content: space-around;
+		.nav {
+			display: none;
+		}
+	}
+
+	.hamburger {
+		display: flex;
+	}
+	.header__logo {
+		width: 70px;
+		height: 70px;
+		img {
+		max-width: 100%; }
+	}
+
+	.header {
+		justify-content: space-around;
+		.btn {
+			width: 160px;
+		}
+	}
+
+	.about {
+		&__descr-first {
+			font-size: 43px;
+		}
+
+		&__descr-second {
+			font-size: 26px;
+		}
+	}
+}
+
+@media (max-width:576px){
+    .container{
+        max-width:100%;
+    }
+
+    .promo {
+    	padding-top: 50px;
+    	.header {
+    		justify-content: space-around;
+    	}
+    }
+    .about {
+    	h1 {
+    		text-align: center;
+    	}
+    	&__descr-first {
+    		text-align: center;
+    		font-size: 30px;
+    	}
+    	&__descr-second {
+    		text-align: center;
+    		font-size: 22px;
+    	}
+    	&__advantages {
+    		flex-direction: column;
+    		align-items: center;
+    	}
+    	&__advantage {
+    		margin-bottom: 20px;
+    	}
+
+    	&__lines {
+    		width: 290px;
+    		.divider {
+    			width: 135px;
+    		}
+    	}
+    	&__text {
+    		margin-top: 10px;
+    		font-size: 13px;
+    	}
+    }
+
+    .header {
+    	.promo &__logo {
+			width: 75px;
+			height: 75px;
+			img {
+				width: 100%;
+			}
+		}
+		.btn {
+			width: 120px;
+			font-size: 10px;
+		}
+
+		.promo &__text {
+    	font-size: 13px;
+    	}
+    	.promo &__tel {
+    		font-size: 14px;
+    	}
+    }
+    
+}
