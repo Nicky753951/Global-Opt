@@ -49,6 +49,8 @@
 		}
 		&__text {
 		font-size: 11px;
+		line-height: 16px;
+		margin: 8px 0 0 0;
 		}
 		&__img {
 		width: 50px;
@@ -142,9 +144,11 @@
     	&__activities {
     		flex-direction: column;
     		align-items: center;
+    		width: auto;
     	}
     	&__activity {
     		margin-bottom: 20px;
+    		width: 300px;
     	}
     	&__text {
     		margin-top: 10px;
