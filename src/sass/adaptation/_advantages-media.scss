@@ -1,7 +1,10 @@
 @media (max-width: 1200px){
+<<<<<<< Updated upstream
 	.container{
 		max-width: 960px;
 	}
+=======
+>>>>>>> Stashed changes
 	.advantages {
 		&__block {
 			width: 480px;
@@ -14,10 +17,13 @@
 }
 
 @media (max-width: 992px){
+<<<<<<< Updated upstream
 	.container{
 		max-width: 720px;
 	}
 
+=======
+>>>>>>> Stashed changes
 	.advantages {
 		&__block {
 			width: 356px;
@@ -39,10 +45,13 @@
 }
 
 @media (max-width: 768px){
+<<<<<<< Updated upstream
 	.container{
 		max-width: 540px;
 	}
 
+=======
+>>>>>>> Stashed changes
 	.advantages {
 		&__wrapper{
 			flex-direction: column;			
@@ -62,14 +71,24 @@
 		&__text {
 			width: 100%;
 		}
+<<<<<<< Updated upstream
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
+>>>>>>> Stashed changes
 	}
 }
 
 @media (max-width:576px){
+<<<<<<< Updated upstream
     .container{
         max-width:100%;
     }
+=======
+>>>>>>> Stashed changes
     .advantages {	
     	&__block {
     		display: flex;
@@ -89,6 +108,7 @@
     	}
     	&__text {
     	font-size: 13px;
+<<<<<<< Updated upstream
     	}
     	.title {
     		font-size: 	24px;
@@ -96,4 +116,14 @@
 
     }       
 
+=======
+<<<<<<< HEAD
+=======
+    	}
+    	.title {
+    		font-size: 	24px;
+>>>>>>> main
+    	}
+    }      
+>>>>>>> Stashed changes
 }

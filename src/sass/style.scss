@@ -6,8 +6,26 @@
 @import "blocks/menu";
 @import "blocks/title";
 @import "blocks/btn";
+<<<<<<< Updated upstream
 @import "adaptation/promo-media";
 @import "adaptation/advantages-media";
+=======
+@import "blocks/work";
+@import "blocks/agentInChina";
+@import "blocks/divider";
+@import "blocks/fixedMenu";
+@import "blocks/header";
+@import "adaptation/promo-media";
+@import "adaptation/advantages-media";
+@import "adaptation/work-media";
+@import "adaptation/agentInChina-media";
+@import "adaptation/fixedMenu-media";
+@import "adaptation/title-media";
+@import "adaptation/divider-media";
+@import "adaptation/btn-media";
+@import "adaptation/header-media";
+@import "adaptation/container-media";
+>>>>>>> Stashed changes
 
 
 * {
